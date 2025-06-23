@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24/7 Lift Service Belgium</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; color: #333; }
+    header { background: #0c4a6e; color: white; padding: 20px; text-align: center; }
+    nav { background: #075985; color: white; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; background: white; }
+    footer { background: #0c4a6e; color: white; text-align: center; padding: 20px; }
+    .btn { display: inline-block; padding: 10px 20px; background: #0284c7; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+    form { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+    label { font-weight: bold; }
+    input, select, textarea { padding: 10px; font-size: 16px; width: 100%; }
+    input[type="submit"] { width: fit-content; align-self: start; background-color: #0284c7; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>24/7 Lift Service Belgium</h1>
+    <p>Ladderliften voor al uw verhuizingen - 7 dagen op 7 actief in heel België</p>
+  </header>
+
+  <nav>
+    <a href="#diensten">Diensten</a>
+    <a href="#prijzen">Tarieven</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="diensten">
+    <h2>Onze Diensten</h2>
+    <p>Wij bieden een betrouwbare en snelle ladderliftservice voor verhuizingen tot 11 verdiepingen hoog. Onze liften zijn veilig, professioneel bediend en inzetbaar in heel België.</p>
+    <ul>
+      <li>Ladderlift met bediening tot 33 meter</li>
+      <li>Particuliere én professionele verhuizingen</li>
+      <li>Snelle interventie, ook in het weekend en op feestdagen</li>
+      <li>Volledige dekking van België</li>
+    </ul>
+  </section>
+
+  <section id="prijzen">
+    <h2>Tarieven</h2>
+    <p>Transparante en eerlijke prijzen voor elke opdracht:</p>
+    <ul>
+      <li>Basistarief: €65 per uur</li>
+      <li>Extra uur: €45</li>
+      <li>Kilometervergoeding: €0,50 per km vanaf onze uitvalsbasis</li>
+      <li>Weekends en feestdagen: géén toeslag</li>
+    </ul>
+    <a href="#contact" class="btn">Boek Nu</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contacteer ons</h2>
+    <p>Voor reservaties of vragen:</p>
+    <p><strong>Telefoon:</strong> 0465 37 00 84</p>
+    <p><strong>Email:</strong> info@247lift.be</p>
+    <p><strong>Sociale media:</strong> @247LiftServiceBelgium</p>
+
+    <form action="#" method="post">
+      <label for="telefoon">Telefoonnummer:</label>
+      <input type="tel" id="telefoon" name="telefoon" required>
+
+      <label for="email">E-mailadres:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="plaats">Plaats van de dienst:</label>
+      <input type="text" id="plaats" name="plaats" required>
+
+      <label for="verbodsborden">Werd parkeerverbod bij de gemeente aangevraagd?</label>
+      <select id="verbodsborden" name="verbodsborden">
+        <option value="ja">Ja</option>
+        <option value="nee">Nee</option>
+      </select>
+
+      <label for="adres">Adres van de verhuizing:</label>
+      <input type="text" id="adres" name="adres" required>
+
+      <label for="verdieping">Verdieping waarop gewerkt moet worden:</label>
+      <input type="text" id="verdieping" name="verdieping" required>
+
+      <input type="submit" value="Verstuur aanvraag">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 24/7 Lift Service Belgium BV. Alle rechten voorbehouden.</p>
+  </footer>
+</body>
+</html>
